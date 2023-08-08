@@ -35,15 +35,23 @@ public class PageMoneda {
 		sol_dolar,
 		sol_euro,
 		sol_libra,
+		sol_yen_japones,
+		sol_won_surcoreano,
+		
 		dolar_sol,
 		euro_sol,
 		libra_sol,
+		yen_japones_sol,
+		won_surcoreano_sol,
 	}
 		
 	//Asignado conversiones ¿Cuanto vale un sol en cada moneda?
 	public double dolar = 3.68;
 	public double euro = 4.04;
 	public double libra = 4.69;
+	public double yen = 0.0257454915;
+	public double won = 0.002806735;
+	
 	
 	
 	//Creando variable de entrada
@@ -165,6 +173,14 @@ public class PageMoneda {
 				SolAMoneda(libra);
 				break;
 			
+			case sol_yen_japones:
+				SolAMoneda(yen);
+				break;
+				
+			case sol_won_surcoreano:
+				SolAMoneda(won);
+				break;
+				
 			case dolar_sol:
 				MonedaASol(dolar);
 				break;
@@ -176,6 +192,15 @@ public class PageMoneda {
 			case libra_sol:
 				MonedaASol(libra);
 				break;
+				
+			case yen_japones_sol:
+				MonedaASol(yen);
+				break;
+				
+			case won_surcoreano_sol:
+				MonedaASol(won);
+				break;
+				
 				
 			default:
 				throw new IllegalArgumentException("Unexpected value: " + moneda);
