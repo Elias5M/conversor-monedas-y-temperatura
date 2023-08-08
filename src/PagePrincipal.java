@@ -92,13 +92,13 @@ public class PagePrincipal {
 		});
 		
 		imgMoneda = new JLabel("");
-		imgMoneda.setIcon(new ImageIcon("C:\\Users\\asus\\Downloads\\moneda.png"));
+		imgMoneda.setIcon(new ImageIcon("imagenes/moneda.png"));
 		imgMoneda.setHorizontalAlignment(SwingConstants.CENTER);
 		imgMoneda.setBounds(66, 223, 133, 133);
 		frame.getContentPane().add(imgMoneda);
 		
 		imgEmote = new JLabel("");
-		imgEmote.setIcon(new ImageIcon("C:\\Users\\asus\\Downloads\\sudando.png"));
+		imgEmote.setIcon(new ImageIcon("imagenes/sudando.png"));
 		imgEmote.setHorizontalAlignment(SwingConstants.CENTER);
 		imgEmote.setBounds(232, 223, 133, 133);
 		frame.getContentPane().add(imgEmote);

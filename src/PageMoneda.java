@@ -124,7 +124,7 @@ public class PageMoneda {
 		etiquetaCantidad.setBounds(92, 174, 60, 31);
 		frame.getContentPane().add(etiquetaCantidad);
 		
-		etiquetaResultado = new JLabel("New label");
+		etiquetaResultado = new JLabel("Aqui tu resultado");
 		etiquetaResultado.setBackground(new Color(255, 255, 0));
 		etiquetaResultado.setFont(new Font("Arial Black", Font.PLAIN, 14));
 		etiquetaResultado.setForeground(new Color(255, 255, 0));
